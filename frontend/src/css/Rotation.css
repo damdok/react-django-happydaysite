@@ -1,0 +1,21 @@
+.rotation {
+  width:100%;
+  background-color: #f29d21;
+  position: fixed;
+  bottom: 0;
+  z-index:5;
+}	
+.img {
+ 	width: 100px;
+ 	height: 100px;
+ 	-webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.sunflower{
+	float:left;
+	width:33.333%;
+}
